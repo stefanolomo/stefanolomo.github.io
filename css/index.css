@@ -1,0 +1,54 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+html{
+    background-color: rgb(26, 25, 25);
+}
+header{
+    background-color: rgb(58, 58, 58);
+    padding: 2.5rem 0 1rem 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+header .pfp-container img{
+    width: 80px;
+    border-radius: 100%;
+}
+header h4, h1{
+    color: white;
+}
+main{
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+    padding: 3rem 3rem 0 3rem;
+    background-color: rgb(26, 25, 25);
+}
+main .container{
+    border-radius: 1rem;
+    padding: 2.5rem;
+    text-align: center;
+    border: 1.5px white solid;
+}
+main .container p{
+    color: white;
+    list-style: none;
+    padding: 0.5rem;
+    font-size: 1.1rem;
+}
+main h2{
+    text-align: center;
+    color: white;
+    margin: 1rem;
+}
+main .socials-container{
+    padding: 1.5rem 0 0 0;
+}
+main .socials-container a{
+    margin: 1rem;
+}
+main .socials-container a img{
+    width: 40px;
+}
