@@ -40,13 +40,15 @@ main {
   flex-direction: column;
   align-items: center;
 }
-section.proyects {
+section.proyects,
+section.school {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
   align-items: flex-start;
 }
-section.proyects div.item {
+section.proyects div.item,
+section.school div.item {
   background-color: #dedede;
   border: 2px solid #000000;
   border-radius: 1rem;
@@ -59,23 +61,27 @@ section.proyects div.item {
   margin: 1.2rem;
   max-width: min-content;
 }
-section.proyects div.item img.proyect-preview {
+section.proyects div.item img.proyect-preview,
+section.school div.item img.proyect-preview {
   max-width: 18rem;
   border-radius: 1rem;
 }
-section.proyects div.item h2.proyect-tittle {
+section.proyects div.item h2.proyect-tittle,
+section.school div.item h2.proyect-tittle {
   margin: 1.2rem;
   text-align: center;
   color: black;
   text-decoration: underline blueviolet 4px;
 }
-section.proyects div.item div.bg-container {
+section.proyects div.item div.bg-container,
+section.school div.item div.bg-container {
   display: flex;
   flex-wrap: wrap;
   padding: 0.4rem;
   justify-content: space-evenly;
 }
-section.proyects div.item div.bg-container p {
+section.proyects div.item div.bg-container p,
+section.school div.item div.bg-container p {
   margin: 0.2rem;
   text-decoration: underline;
   font-style: italic;
